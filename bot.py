@@ -47,7 +47,7 @@ Download()
 # def greetings(message):
 #     bot.send_message(
 #         message.chat.id,
-#         f"Salam {message.from_user.first_name}, istediyiniz videonu yükləmək ücün link atın.",
+#         f"Hello {message.from_user.first_name}, send link of the video that you wish to download.",
 #     )
 
 
@@ -69,7 +69,7 @@ Download()
 
 # @bot.message_handler(func=lambda message: True)
 # def send_link(message):
-#     bot.send_message(message.chat.id, "Youtube link at!")
+#     bot.send_message(message.chat.id, "Incorrect link")
 
 
 # bot.infinity_polling()
